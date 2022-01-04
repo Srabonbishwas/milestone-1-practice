@@ -2,11 +2,57 @@
     display: flex;
 }
 .section-2{
+    margin-top: 200px;
     display: flex;
+}
+.section-3{
+    margin-top: 200px;
 }
 .section-3div-p{
     display: flex;
 }
-img{
-    width: 200;
+.section-1 .div1{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section-1 .div2{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.section-1 img{
+    width: 100%;
+}
+.section-2 .div1{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section-2 .div2{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.section-2 img{
+    width: 100%;
+}
+.section-3div-p{
+    display: flex;
+}
+.section-3 .div1{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section-3 .div2{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
 }
