@@ -1,5 +1,10 @@
 body{
+    color: white;
     font-family: 'Poppins', sans-serif;
+    background-image: url(img/ocean-ga1917f5a8_1920.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .section-1{
     display: flex;
