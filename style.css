@@ -24,6 +24,7 @@
 
 .section-1 img{
     width: 100%;
+    clip-path: circle();
 }
 .section-2 .div1{
     width: 40%;
@@ -38,21 +39,47 @@
 
 .section-2 img{
     width: 100%;
+    border: 3px solid lightblue ;
+    border-radius: 30px;
 }
 .section-3div-p{
+    
     display: flex;
 }
 .section-3 .div1{
-    width: 40%;
+    margin: 100px;
+    width: 50%;
     padding-left: 5%;
     padding-right: 5%;
+    border-left: 5px solid;
+    box-shadow: -5px 5px 10px;
+    background-image: linear-gradient(blue, lightgreen);
 }
 .section-3 .div2{
-    width: 40%;
+    margin: 100px;
+    width: 50%;
     padding-left: 5%;
     padding-right: 5%;
+    border-left: 5px solid;
+    box-shadow: -5px 5px 10px;
+    border-color: ; 
 }
-footer{
-    margin-top: 50px;
+.section-1 a{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, blue);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+.section-2 a{
+    text-decoration: none;
+    background-image: linear-gradient(blue, skyblue);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+}
+footer p{
     text-align: center;
+    margin-left: 200px;
 }
